@@ -11,7 +11,7 @@ h1{
     font-family: 'Muli', sans-serif;
 }
 h2{
-    font-size: 56px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.15;
     font-family: 'Muli', sans-serif;
@@ -81,7 +81,8 @@ WRAPPER*/
 .logo{
     padding: 16px;
     display: block;
-    max-width: 100%;
+    width: 120px;
+    height: 130px;
 }
 
 
@@ -230,7 +231,10 @@ et lui met une couleur grise comme le reste du footer*/
     color: #03a48f;
 }
 
-
+.section__item--left img{
+    width: 80px;
+    height: 80px;
+}
 
 
 
@@ -301,7 +305,7 @@ flex-direction: column;
     flex-direction:column;
     }
     .section--home .section--title{
-    text-align:justify;
+    text-align:center;
     padding-top:15%;
     width:100%;
     }
